@@ -21,3 +21,14 @@ class Word_Table:
     def isempty(self):
         if self.__head.__next is None:
             print('empty')
+newlist = Word_Table()
+new_list.__head = Node('h')
+new_list.__head.__next = Node('hi')
+new_list.__head.__next.__next = Node('hii')
+new_list.__head.__next.__next.__next = Node('hiii')
+new_list.__head.__next.__next.__next.__next = Node('hiiii')
+new_list.__head.__next.__next.__next.__next.__next = Node('hiiiii')
+new_list.__head.__next.__next.__next.__next.__next.__next = Node('hiiiiii')
+new_list.__head.__next.__next.__next.__next.__next.__next.__next = Node('hiiiiiii')
+new_list.__head.__next.__next.__next.__next.__next.__next.__next.__next = Node('hiiiiiiii')
+new_list.__head.__next.__next.__next.__next.__next.__next.__next.__next.__next = Node('hiiiiiiiii')
